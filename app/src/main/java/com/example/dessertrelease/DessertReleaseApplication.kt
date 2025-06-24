@@ -18,6 +18,6 @@ class DessertReleaseApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        userPreferencesRepository   = userPreferencesRepository(dataStore)
+        userPreferencesRepository = UserPreferencesRepository(dataStore)
     }
 }
